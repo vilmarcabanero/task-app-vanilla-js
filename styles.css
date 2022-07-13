@@ -1,0 +1,28 @@
+.container {
+  width: 30rem;
+  margin: auto;
+  text-align: center;
+}
+
+.form {
+  margin-bottom: 0.75rem;
+}
+
+.task {
+  margin: auto;
+  border: 1px solid lightgray;
+  width: 14.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 0.25rem;
+}
+
+.complete {
+  text-decoration: line-through;
+  color: #9900cc;
+}
+
+.clear-button {
+  margin-bottom: 0.75rem;
+}

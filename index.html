@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Todo App</title>
+  </head>
+  <body>
+    <div class="container">
+      <marquee behavior="alternate" direction="up"
+        ><center><h1>Todo App</h1></center></marquee
+      >
+      <form class="form" onsubmit="addTask(); return false">
+        <input
+          type="text"
+          id="taskInputId"
+          name="taskInput"
+          title="taskInput"
+          placeholder="Input task"
+        />
+        <button type="submit">Add task</button>
+        <br />
+      </form>
+
+      <button onclick="clearCompleteTasks()" class="clear-button">
+        Clear complete tasks
+      </button>
+      <div id="taskList"></div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
